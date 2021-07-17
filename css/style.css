@@ -17,7 +17,7 @@ header{
     justify-content: center;
 }
 
-#ilumina{
+.ilumina{
     position: absolute;
     top: 5%;
     left: 1%;
@@ -26,6 +26,57 @@ header{
 #content{
     align-items: center;
     text-align: center;
+}
+
+.fale-conosco{
+    position: absolute;
+    top: 3%;
+    left: 92%;
+    border: 1px solid #cb4640;
+    background-color: #cb4640;
+    color: white;
+    padding: 6px;
+    border-radius: 50px;
+    font-size: 14px;
+}
+
+.fale-conosco:hover{
+    border: #cb474044;
+    background-color: #cb474044;
+}
+
+.carrinho{
+    position: absolute;
+    top: 3%;
+    left: 86%;
+    border: 1px solid #cb4640;
+    background-color: #cb4640;
+    color: white;
+    padding: 6px;
+    border-radius: 50px;
+    font-size: 14px;
+}
+
+.carrinho:hover{
+    border: #cb474044;
+    background-color: #cb474044;
+}
+
+.produtos{
+    position: absolute;
+    top: 3%;
+    left: 80%;
+    border: 1px solid #cb4640;
+    background-color: #cb4640;
+    color: white;
+    padding: 6px;
+    border-radius: 50px;
+    font-size: 14px;
+}
+
+.produtos:hover{
+    border: #cb474044;
+    background-color: #cb474044;
 }
 
 .section-container{
@@ -41,9 +92,9 @@ header{
     top: 55%;
     left: 2%;
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid #cb4640;
     padding: 30px;
-    background-color: black;
+    background-color: #cb4640;
     border-radius: 60px;
     color: white;
 
