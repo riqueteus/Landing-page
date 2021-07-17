@@ -7,6 +7,9 @@ html {
     scroll-behavior: smooth;
 }
 
+header{
+    background-color: black;
+}
 
 #foto-black{
     position: absolute;
@@ -35,13 +38,14 @@ html {
 
 .container-promo{
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 2%;
     text-align: center;
-    border: 2px solid #cacbcd;
+    border: 2px solid black;
     padding: 30px;
-    background-color: #cacbcd;
+    background-color: black;
     border-radius: 60px;
+    color: white;
 
 }
 
@@ -67,37 +71,51 @@ html {
     max-width: 450px;
 }
 
+.produto-zoom{
+    overflow: hidden;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.produto-zoom:hover{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
 .produto-one{
     position: absolute;
-    top: 42%;
+    top: 40%;
     left: 33%;
     text-align: center;
-    border: 2px solid #cacbcd;
+    border: 2px solid white;
     padding: 15px;
-    background-color: #cacbcd;
+    background-color: white;
     border-radius: 20px;
 }
 
 .produto-two{
     position: absolute;
-    top: 42%;
+    top: 40%;
     left: 55%;
     text-align: center;
-    border: 2px solid #cacbcd;
+    border: 2px solid white;
     padding: 15px;
-    background-color: #cacbcd;
+    background-color: white;
     border-radius: 20px;
 }
 
 .produto-three{
     width: 210px;
     position: absolute;
-    top: 42%;
+    top: 40%;
     left: 77%;
     text-align: center;
-    border: 2px solid #cacbcd;
+    border: 2px solid white;
     padding: 15px;
-    background-color: #cacbcd;
+    background-color: white;
     border-radius: 20px;
 }
 
@@ -109,9 +127,9 @@ html {
 .valor-desconto{
     width: 110px;
     height: 20px;
-    border: 1px solid red;
-    border-radius: 30px;
-    background-color: red;
+    border: 1px solid  #cb4640;
+    border-radius: 10px;
+    background-color:  #cb4640;
     color: black;
     position: absolute;
     top: 2px;

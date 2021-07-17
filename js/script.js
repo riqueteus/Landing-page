@@ -14,15 +14,15 @@ form.addEventListener('submit', (e) =>{
 
     let content = document.getElementById('content')
 
-    let carregando = `<p>carregando...</p>`
+    let carregando = `<p>Enviando...</p>`
 
-    let enviado = `<p>enviado</p>`
+    let cadrastro = `<p>Cadastro Realizado!</p>`
 
 
     content.innerHTML = carregando
 
     setTimeout(() => {
-        content.innerHTML = enviado
+        content.innerHTML = cadrastro
     }, 1000);
 
 })
